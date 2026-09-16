@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(207, 221, 233);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.titulocontent {
+    background-color: rgb(30, 31, 35);
+    color: whitesmoke;
+    font-size: larger;
+    overflow: hidden;
+    text-align: center;
+}
+
+.titulocontent:h1 {
+    font-weight: bolder;
+}
+
+.tables {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects_table {
+    max-width: 90%;
+    margin: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    border-collapse: collapse;
+    padding: 20px;
+    border-radius: 20px;
+    overflow: hidden
+}
+
+.projects_table thead tr {
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+
+.projects_table thead tr th {
+    padding: 10px;
+}
+
+.projects_table tr th {
+    padding: 10px;
+}
