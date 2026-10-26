@@ -5,7 +5,8 @@ function validarCorreo() {
 }
 
 function validarBoleta(boleta) {
-    if (typeof boleta !== 'string') return false;
+    const regex = /^\d{10}$/;
+    return regex.test(boleta);
     
 }
 
