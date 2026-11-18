@@ -45,7 +45,7 @@ function crearApp(config, pool){
     })
   );
 
-  //necesitamos visualizar el id de la sesión para compararla en la pantalla
+  //necesitamos visualizar el id de la sesión pa2. Elige una opción (httpOnly, maxAge/rolling, regenerate, logout con destroy) y explica qué ataque evita, con tu evidencia.ra compararla en la pantalla
 
   const idCorto = (id) => (id ? `${id.slice(0,8)}...`: null);
 
@@ -199,8 +199,3 @@ function crearApp(config, pool){
 
 
 module.exports = {crearApp, NOMBRE_COOKIE};
-
-//tarea 1, deberán de realizar una infografia sobre la autentificación con el uso de jwt y como se implementa para el domingo
-
-// tarea 2 con el uso del archivo que se les va a proveer deberan de completar y realizar las pruebas al ejercicio de sesiones en el archivo llamado demo.js
-//para implementarse en el archivo demo.js, se evaluará la siguiente clase.
